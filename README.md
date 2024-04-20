@@ -19,3 +19,4 @@ dwibiascorrect ants mwu100307_diff.nii.gz mwu100307_diff_biascorrect.nii.gz -fsl
 [1] Z. Li, Z. Li, B. Bilgic, H.-H. Lee, K. Ying, S. Y. Huang, H. Liao, Q. Tian, DIMOND: DIffusion Model OptimizatioN with Deep Learning. _Adv. Sci._  2024, 2307965. [https://doi.org/10.1002/advs.202307965](https://doi.org/10.1002/advs.202307965)
 
 [2] Tian, Q., Fan, Q., Witzel, T. _et al._ Comprehensive diffusion MRI dataset for in vivo human brain microstructure mapping using 300 mT/m gradients. _Sci Data_  **9**, 7 (2022). https://doi.org/10.1038/s41597-021-01092-6
+
