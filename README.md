@@ -9,7 +9,7 @@ The pre-processing is a very basic but important step for diffusion MRI. Please 
 
 (1) Follow the conventional DWI pre-processing pipeline (e.g., HCP, MGH-CDMD [[2](https://doi.org/10.1038/s41597-021-01092-6)])
 
-(2) Conduct DWI bias correct using the "[dwibiascorrect](https://mrtrix.readthedocs.io/en/dev/reference/commands/dwibiascorrect.html)" function of MRtrix. 
+(2) Conduct DWI bias correct using the "[dwibiascorrect](https://mrtrix.readthedocs.io/en/dev/reference/commands/dwibiascorrect.html)" function of MRtrix. (Tip: using the MRtrix's [docker image](https://mrtrix.readthedocs.io/en/dev/installation/using_containers.html))
 ```
 # Note that the bias map of a single channel is directly multiplied onto each channel of the image,
 # effectively scaling each channel uniformly without altering the diffusion model parameters. 
