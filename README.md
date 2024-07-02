@@ -25,7 +25,7 @@ For diffusion tensor model, You can run with following setting simply:
 ```
 cd experiment_scripts
 # training
-python train_imgsubjFT.py --config ./config_img/config_10subj-256h5cconv3e1encode32Part2.ini --subj mwu100307 --num_iters 20000 --epochs_til_ckpt 100 --experiment_name debug --convnetwork 3 --DropRate 0.05 --aug 2 --lr 0.0001 --cv 1 --use_tmask 0 --dataset_path HCP --subpath Diff1-15-0-0 --diffusionmodel tensor --gpu 0 --encoding_features 128
+python train_imgsubjFT.py --config ../config_img/config_10subj-256h5cconv3e1encode32Part2.ini --subj mwu100307 --num_iters 20000 --epochs_til_ckpt 100 --experiment_name debug --convnetwork 3 --DropRate 0.05 --aug 2 --lr 0.0001 --cv 1 --use_tmask 0 --dataset_path HCP --subpath Diff1-15-0-0 --diffusionmodel tensor --gpu 0 --encoding_features 128
 # inference
 python train_imgsubjFT.py --config ../data/HCP/mwu100307/debug/config.ini --resume ../data/HCP/mwu100307/debug/ 1900 ckbest --subj mwu100307 --eval --direapply 0 --MCInference 1
 ```
